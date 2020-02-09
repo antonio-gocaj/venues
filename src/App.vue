@@ -24,12 +24,6 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-/*
-body{
-  background: url("~@/assets/unsplash.jpg") no-repeat;
-  background-position: center top;
-}*/
-
 body{
   background:#fff;
 }

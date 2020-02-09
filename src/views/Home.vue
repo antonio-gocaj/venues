@@ -111,7 +111,6 @@ export default {
     this.categories = (await getVenuesCategories()).data.response.categories
 
     /*if(!("geolocation" in navigator)) { this.errorStr = 'Geolocation not available.';return; } */
-
     navigator.geolocation.getCurrentPosition(pos => {
         this.nearyou = true;
         this.getSearch({
