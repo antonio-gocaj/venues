@@ -1,4 +1,4 @@
-# adyapp
+# Venues (VueJs + Foursquare)
 
 ## Project setup
 ```
