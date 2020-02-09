@@ -1,4 +1,6 @@
 import Vue from 'vue'
+import 'bootstrap-css-only'
+import 'nprogress/nprogress.css';
 import App from './App.vue'
 import router from './router'
 
