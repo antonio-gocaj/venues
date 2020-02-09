@@ -25,5 +25,15 @@ npm run serve
 npm run build
 ```
 
+## Environment
+On .env are application environment variables for api base url, client_id, client_secret, versioning.
+```
+VUE_APP_API_BASE_URL=https://api.foursquare.com/v2
+VUE_APP_API_CLIENT_ID=xxxxxxx..
+VUE_APP_API_CLIENT_SECRET=xxxxxxxx...
+VUE_APP_API_VERSIONING=20200101
+```
+VUE_APP_API_VERSIONING format is YYYYMMDD which is required from foursquare api as a request parameter.
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
