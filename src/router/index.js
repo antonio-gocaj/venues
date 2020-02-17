@@ -15,13 +15,6 @@ const routes = [
     name: 'venuedetails',
     component: function(){
       return import('../views/Details.vue')
-    },
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: function () {
-      return import('../views/About.vue')
     }
   }
 ]

@@ -1,8 +1,6 @@
 import httpClient from './httpClient';
 import Nprogress from 'nprogress';
 
-//const getVenuesExplore = (params) => httpClient.get('/venues/search',{params});
-
 const getVenuesCategories = () => httpClient.get('/venues/categories?limit=5');
 
 const getVenuesSearch = (params) => httpClient.get('/venues/search',{params});
